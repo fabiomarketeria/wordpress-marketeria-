@@ -1,0 +1,20 @@
+SCREENSHOT PLACEHOLDER
+
+Para o tema aparecer corretamente no painel WordPress, adicione um arquivo screenshot.png (880x660px) neste diretório.
+
+O screenshot deve mostrar uma prévia visual do tema Marketeria.
+
+Recomendações:
+- Tamanho: 880x660 pixels (ou 1200x900 para retina)
+- Formato: PNG ou JPG
+- Nome: screenshot.png
+- Conteúdo: Captura de tela da home page do tema
+
+Ferramentas para criar:
+- Photoshop / GIMP
+- Figma / Canva
+- Captura de tela do site + redimensionamento
+
+---
+Tema Marketeria
+Versão 1.0.0

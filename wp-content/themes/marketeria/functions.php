@@ -244,3 +244,16 @@ function marketeria_meta_tags() {
     <?php
 }
 add_action('wp_head', 'marketeria_meta_tags');
+
+/**
+ * Menu de fallback quando nenhum menu está configurado
+ */
+function marketeria_fallback_menu() {
+    echo '<ul id="primary-menu" class="menu">';
+    echo '<li><a href="' . esc_url(home_url('/')) . '">' . __('Início', 'marketeria') . '</a></li>';
+    wp_list_pages(array(
+        'title_li' => '',
+        'depth'    => 1,
+    ));
+    echo '</ul>';
+}
